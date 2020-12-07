@@ -1,0 +1,10 @@
+{
+  "name": "vue-realty",
+  "short_name": "vue-realty",
+  "theme_color": "#222222",
+  "icons": [
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000"
+}

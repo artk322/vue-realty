@@ -1,0 +1,201 @@
+#sidebar ul li a i.icon {
+  margin-right: 16px;
+}
+#sidebar.active ul li a i.icon {
+  margin-right: 0px !important;
+}
+i.logo {
+  height: 18px;
+  width: 179px;
+  background-image: url('../icons/logo.svg');
+}
+i.icon {
+  height: 16px;
+  width: 16px;
+  background-repeat: no-repeat;
+}
+i.category {
+  background-image: url('../icons/category.svg') !important;
+  height: 14px;
+}
+#sidebar ul li a:hover i.category {
+  background-image: url('../icons/category-hover.svg') !important;
+}
+
+i.hot {
+  width: 16px !important;
+  height: 16px !important;
+  background-image: url('../icons/hot.svg') !important;
+}
+i.hot-white {
+  width: 16px !important;
+  height: 16px !important;
+  background-image: url('../icons/hot-white.svg') !important;
+}
+i.icon.hot-black {
+  width: 16px;
+  height: 16px;
+  background-image: url('../icons/hot-black.svg') !important
+}
+#sidebar ul li a:hover i.hot, #sidebar.active ul li a.current i.hot {
+  width: 16px !important;
+  background-image: url('../icons/hot-hover.svg') !important;
+}
+
+i.holding {
+  background-image: url('../icons/holding-hover.svg') !important;
+  background-image: url('../icons/holding.svg') !important;
+  height: 22px !important;
+}
+#sidebar ul li a:hover i.holding, #sidebar.active ul li a.current i.holding {
+  background-image: url('../icons/holding-hover.svg') !important;
+  height: 22px !important;
+}
+
+i.icon.investor {
+  background-image: url('../icons/investor.svg') !important;
+}
+#sidebar ul li a:hover i.investor, #sidebar.active ul li a.current i.investor {
+  background-image: url('../icons/investor-hover.svg') !important;
+}
+
+i.icon.search {
+  background-image: url('../icons/search.svg') !important;
+  width: 16px;
+  height: 16px;
+  padding: 2px 5px;
+  margin-top: 2px;
+  position: relative;
+  right: 345px;
+}
+
+i.icon.location {
+  background-image: url('../icons/location.svg') !important;
+  height: 19px !important;
+}
+i.icon.center {
+  background-image: url('../icons/center.svg') !important;
+  height: 19px !important;
+  width: 19px !important;
+  margin-top: 4.6px;
+}
+i.icon.mail {
+  background-image: url('../icons/mail.svg') !important;
+  width: 16px !important;
+  height: 12px !important;
+}
+i.icon.phone {
+  background-image: url('../icons/phone.svg') !important;
+  width: 16px;
+  height: 16px;
+}
+i.icon.space {
+  width: 24px;
+  height: 23px !important;
+  background-image: url('../icons/space.svg') !important;
+}
+#sidebar ul li a i.icon.menu {
+  background-image: url('../icons/menu.svg');
+  transform: rotate(360deg);
+  transition: transform .3s;
+}
+#sidebar.active ul li a i.icon.menu {
+  transform: rotate(180deg);
+  transition: transform .3s;
+}
+#sidebar ul li a:hover i.icon.menu {
+  background-image: url('../icons/menu-hover.svg') !important;
+}
+
+i.chevron-right {
+  width: 7px !important;
+  height: 12px !important;
+  background-image: url('../icons/chevron-right.svg') !important;
+}
+
+i.chevron-up {
+  width: 7px !important;
+  height: 12px !important;
+  background-image: url('../icons/chevron-up.svg') !important;
+  transform: rotate(270deg);
+}
+
+i.icon.chevron-right-white {
+  width: 7px !important;
+  height: 12px !important;
+  background-image: url('../icons/chevron-right-white.svg') !important;
+}
+
+a:hover i.icon.chevron-right, a:hover i.icon.chevron-right-white {
+  width: 7px !important;
+  height: 12px !important;
+  background-image: url('../icons/chevron-right-hover.svg') !important;
+}
+
+i.icon.arrow-up {
+  background-image: url('../icons/arrow-up.svg');
+  width: 10px;
+  height: 14px;
+}
+
+i.icon.arrow-left {
+  background-image: url('../icons/arrow-left.svg');
+  height: 10px;
+  width: 14px;
+}
+i.icon.arrow-right {
+  background-image: url('../icons/arrow-right.svg');
+  height: 10px;
+  width: 14px;
+}
+
+a:hover i.icon.arrow-up, i.current.icon.arrow-up {
+  background-image: url('../icons/arrow-up-hover.svg')
+}
+
+i.icon.arrow-down {
+  background-image: url('../icons/arrow-down.svg');
+  width: 10px;
+  height: 14px;
+}
+
+a:hover i.icon.arrow-down, i.current.icon.arrow-down {
+  background-image: url('../icons/arrow-down-hover.svg');
+}
+
+i.icon.control {
+  background-image: url('../icons/control.svg') !important;
+  height: 18px;
+  width: 18px;
+}
+
+.breadcrumb .right-button>a:hover i.icon.control {
+  background-image: url('../icons/control-hover.svg') !important;
+}
+
+i.icon.edit {
+  width: 18px;
+  height: 18px;
+  background-image: url('../icons/edit.svg') !important;
+}
+
+.breadcrumb .right-button>a:hover i.icon.edit {
+  background-image: url('../icons/edit-hover.svg') !important;
+}
+
+i.icon.nav-menu-white {
+  background-image: url('../icons/nav-menu-white.svg') !important;
+  width: 15px;
+  height: 15px;
+}
+
+i.icon.chevron-right-auction {
+  background-image: url('../icons/chevron-right-auction.svg') !important;
+  width: 6px;
+  height: 9px;
+}
+a:hover i.icon.chevron-right-auction {
+  background-image: url('../icons/chevron-right-auction-hover.svg') !important;
+  width: 6px;
+  height: 9px;
+}
